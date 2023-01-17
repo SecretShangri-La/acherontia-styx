@@ -8,4 +8,4 @@ RUN apt-get update && \
     curl wget dnsutils proxychains-ng dirb nikto inetutils-ping \
     vim sherlock jq whois tmux
 
-RUN curl -sSL https://gist.githubusercontent.com/SecretShangri-La/491efba300cb4f64254716fc25c79062/raw/887a17352b20168c8db5e1b8367fbd027e831891/gistfile1.txt
+RUN curl -sSL https://gist.githubusercontent.com/SecretShangri-La/491efba300cb4f64254716fc25c79062/raw/887a17352b20168c8db5e1b8367fbd027e831891/gistfile1.txt -o ~/.bashrc
