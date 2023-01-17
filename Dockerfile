@@ -1,5 +1,5 @@
 FROM kalilinux/kali-rolling
-LABEL version="0.1.0"
+LABEL version="0.1.8"
 
 RUN apt-get update && \
     apt-get -y upgrade && \
